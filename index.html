@@ -57,6 +57,11 @@
             transition: color 0.3s;
         }
         
+        .nav-links a.highlight {
+            color: #ffd700;
+            font-weight: 600;
+        }
+        
         .nav-links a:hover {
             color: white;
         }
@@ -777,6 +782,27 @@
                 <li><span class="tag tag-warning">风险3</span> <strong>双平台维护复杂度</strong> → 明确分工，MuJoCo 负责控制，Isaac 负责视觉</li>
                 <li><span class="tag tag-warning">风险4</span> <strong>Sim-to-Real 差距</strong> → 域随机化 + 系统辨识 + 高保真物理</li>
             </ul>
+        </div>
+    </section>
+
+    <!-- 更多文章 -->
+    <section class="section" id="more-articles">
+        <h2 class="section-title">更多技术文章</h2>
+        <div class="card-grid">
+            <div class="platform-card" onclick="location.href='vla-2025-frontier.html'" style="cursor: pointer;">
+                <div class="platform-header">
+                    <div class="platform-icon">🤖</div>
+                    <div class="platform-name">2025 VLA 研究前沿</div>
+                </div>
+                <div class="platform-desc">
+                    系统梳理2025年至今的15+篇核心VLA论文，涵盖GR00T N1、π0系列、CoT-VLA、HybridVLA等前沿模型，从机器人操控到自动驾驶的完整技术图谱。
+                </div>
+                <div class="platform-tags">
+                    <span class="tag tag-primary">VLA</span>
+                    <span class="tag tag-success">机器人学习</span>
+                    <span class="tag tag-info">2025前沿</span>
+                </div>
+            </div>
         </div>
     </section>
 
